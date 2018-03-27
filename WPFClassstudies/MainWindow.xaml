@@ -1,0 +1,80 @@
+﻿<Window x:Class="WPFClassstudies.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFClassstudies"        
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid Grid.Row="0"  Grid.Column="0" Background="Gray">
+            
+            <Button Height="20" Width="90" Click="OnClick_AddCarRng" Content="Add a random car" Margin="2" FontSize="10"/>
+
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="0" Background="Gray">
+
+            <StackPanel DataContext="{Binding _program}">
+                
+                <Label Content="Number of Blue Cars"/>
+                <Label Content="{Binding test}"/>
+
+            </StackPanel>
+
+        </Grid>
+
+        <Grid Grid.Row="0" Grid.Column="1" Background="LightGray">
+            
+            <ListView x:Name="Garage" ItemsSource="{Binding ParkedCars}" Background="Azure" Foreground="Black">
+                
+                <ListView.View>
+                    <GridView>
+                        <GridViewColumn DisplayMemberBinding="{Binding Model}" Header="Vehicle Model" Width="100"></GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Color}" Header="Vehicle Color" Width="100"></GridViewColumn>
+                        <GridViewColumn DisplayMemberBinding="{Binding Image}" Header="Image Path" Width="200"></GridViewColumn>
+                    </GridView>
+                </ListView.View>
+
+            </ListView>
+
+        </Grid>
+
+        <Grid Grid.Row="1" Grid.Column="1" Background="LightGray">
+
+            <ListView x:Name="Parking" Grid.Row="1" ItemsSource="{Binding ParkedCars}" Background="Azure" Foreground="Black">
+                
+                <ListView.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel MaxWidth="850"></WrapPanel>
+                    </ItemsPanelTemplate>
+                </ListView.ItemsPanel>
+
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel>
+                            <Image Width="50" Height="50" Source="{Binding Image}"/>
+                            <TextBlock FontSize="9" HorizontalAlignment="Center" Text="{Binding Model}"/>
+                            <TextBlock FontSize="9" HorizontalAlignment="Center" Text="{Binding Color}"/>
+                        </StackPanel>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+
+        </Grid>
+
+
+    </Grid>
+</Window>

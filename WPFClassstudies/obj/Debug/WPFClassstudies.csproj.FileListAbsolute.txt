@@ -1,0 +1,17 @@
+C:\Users\Googles\Documents\Visual Studio 2017\Projects\WPFClassstudies\WPFClassstudies\bin\Debug\WPFClassstudies.exe.config
+C:\Users\Googles\Documents\Visual Studio 2017\Projects\WPFClassstudies\WPFClassstudies\bin\Debug\WPFClassstudies.exe
+C:\Users\Googles\Documents\Visual Studio 2017\Projects\WPFClassstudies\WPFClassstudies\bin\Debug\WPFClassstudies.pdb
+C:\Users\Googles\Documents\Visual Studio 2017\Projects\WPFClassstudies\WPFClassstudies\bin\Debug\Engine.dll
+C:\Users\Googles\Documents\Visual Studio 2017\Projects\WPFClassstudies\WPFClassstudies\bin\Debug\Engine.pdb
+C:\Users\Googles\Documents\Visual Studio 2017\Projects\WPFClassstudies\WPFClassstudies\obj\Debug\WPFClassstudies.csprojResolveAssemblyReference.cache
+C:\Users\Googles\Documents\Visual Studio 2017\Projects\WPFClassstudies\WPFClassstudies\obj\Debug\MainWindow.g.cs
+C:\Users\Googles\Documents\Visual Studio 2017\Projects\WPFClassstudies\WPFClassstudies\obj\Debug\App.g.cs
+C:\Users\Googles\Documents\Visual Studio 2017\Projects\WPFClassstudies\WPFClassstudies\obj\Debug\WPFClassstudies_MarkupCompile.cache
+C:\Users\Googles\Documents\Visual Studio 2017\Projects\WPFClassstudies\WPFClassstudies\obj\Debug\WPFClassstudies_MarkupCompile.lref
+C:\Users\Googles\Documents\Visual Studio 2017\Projects\WPFClassstudies\WPFClassstudies\obj\Debug\MainWindow.baml
+C:\Users\Googles\Documents\Visual Studio 2017\Projects\WPFClassstudies\WPFClassstudies\obj\Debug\WPFClassstudies.g.resources
+C:\Users\Googles\Documents\Visual Studio 2017\Projects\WPFClassstudies\WPFClassstudies\obj\Debug\WPFClassstudies.Properties.Resources.resources
+C:\Users\Googles\Documents\Visual Studio 2017\Projects\WPFClassstudies\WPFClassstudies\obj\Debug\WPFClassstudies.csproj.GenerateResource.Cache
+C:\Users\Googles\Documents\Visual Studio 2017\Projects\WPFClassstudies\WPFClassstudies\obj\Debug\WPFClassstudies.csproj.CoreCompileInputs.cache
+C:\Users\Googles\Documents\Visual Studio 2017\Projects\WPFClassstudies\WPFClassstudies\obj\Debug\WPFClassstudies.exe
+C:\Users\Googles\Documents\Visual Studio 2017\Projects\WPFClassstudies\WPFClassstudies\obj\Debug\WPFClassstudies.pdb
