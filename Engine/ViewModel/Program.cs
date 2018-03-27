@@ -1,19 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Collections.ObjectModel;
+﻿using System.Linq;
 
 namespace Engine.ViewModel
 {
     public class Program : BaseNotificationClass
     {
-        public Parkinglot parkinglot = new Parkinglot();
+        public int BlueCars => Parkinglot.ParkedCars.Count(c => c.Color == "Blue");
 
-        public int BlueCars => parkinglot.ParkedCars.Count(c => c.Color == "Blue");
+        public int Test { get; set; } = 10;
 
-        public int test { get; set; } = 10;
-
+        private Parkinglot parkinglot = new Parkinglot();
+        public Parkinglot Parkinglot
+        {
+            get => parkinglot;
+            set => parkinglot = value;
+        }
     }
 }
